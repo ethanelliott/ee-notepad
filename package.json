@@ -1,0 +1,21 @@
+{
+    "name": "ee-notepad",
+    "version": "0.0.1",
+    "description": "A simple markdown note-taking app built with electron",
+    "main": "app.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Ethan Elliott",
+    "license": "GNU",
+    "dependencies": {
+        "electron": "^1.8.4",
+        "electron-builder": "^20.8.1",
+        "electron-settings": "^3.1.4"
+    },
+    "eslintConfig": {
+        "parserOptions": {
+            "ecmaVersion": 8
+        }
+    }
+}

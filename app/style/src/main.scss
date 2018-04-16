@@ -1,0 +1,14 @@
+main {
+	grid-area: main;
+	display: grid;
+	grid-template-areas: "editor preview";
+	editor-container {
+		grid-area: editor;
+		background: black;
+	}
+
+	preview-container {
+		grid-area: preview;
+		background: green;
+	}
+}

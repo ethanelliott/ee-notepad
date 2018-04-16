@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<title>notepad</title>
+	<link href="../app/style/fa/css/font-awesome.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="../app/style/main.css" rel="stylesheet" type="text/css" media="screen" />
+	<script>
+		if (typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
+	<script src="../app/script/jquery.js"></script>
+	<script src="../app/script/main.js"></script>
+	<script>
+		if (window.module) module = window.module;
+	</script>
+</head>
+
+<body>
+	<titlebar>
+		<title-container><i class="fa fa-sticky-note"></i> Notepad</title-container>
+		<action-container>
+			<action-button id="close-button"><i class="fa fa-times"></i></action-button>
+			<action-button id="maximize-button"><i class="fa fa-window-maximize"></i></action-button>
+			<action-button id="minimize-button"><i class="fa fa-window-minimize"></i></action-button>
+		</action-container>
+	</titlebar>
+	<main>
+		<editor-container></editor-container>
+		<preview-container></preview-container>
+	</main>
+</body>
+
+</html>
